@@ -1,0 +1,138 @@
+/*GRAL*/
+.html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tituloseccion{
+    background-color: #c94d3f;
+    color: white;
+    text-align: center;
+}
+/*ESTILOS HEADER TPL*/
+header{
+    padding: 2%;
+    margin:0%;
+    background-color: #c94d3f;
+}
+nav{
+    margin-left: 6%;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-family: Poppins;
+    font-size: 140%;
+    text-decoration: none;
+    color: black;
+    justify-items: center;
+}
+.titulopagina{
+    background-color: #c94d3f;
+    color: white;
+    padding: 0.5%;
+    padding-bottom: 0%;
+}
+.contacto{
+    margin-right: 2%;
+    border-radius: 20px;
+    border-color: #c94d3f;
+}
+.contacto a{
+    color: #c94d3f;
+}
+
+/*CONTACTO*/
+.paginacontacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.formmensaje, .titulopagcontacto{
+    margin-left:2%;
+}
+.divformulario{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    font-size: 120%;
+}
+input{
+    width: 100%;
+    height: 20px;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: rgb(233, 220, 220);
+}
+.inputmsj{
+    width: 130%;
+    height: 100px;
+}
+.infocontacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    background-color: #c94d3f;
+    border-radius: 25px;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: center;
+}
+.infocontacto p, .infocontacto h3{
+    color: white;
+}
+
+
+/*ESTILOS FOOTER.TPL*/
+.prefooter{
+    margin-top: 5%;
+    background-color: #F5F7FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+footer.principal p, footer.principal h2, footer.principal a{
+    color: white;
+    text-decoration: none;
+}
+.imagenespagcontacto, .footerimg{
+    width:50px;
+    height: 50px;
+}
+.prefooter, .footersuperior, .footerinferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+.footersuperior, .footerinferior{
+    background-color: black;
+}
+.formfooter{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+.botonfooter{
+    border-radius: 10px;
+    color: white;
+    background-color: #c94d3f;
+}
+footer.principal div form{
+    margin-top: 9%;
+}
+.prefootercontacto, .prefooterentrega, .prefooterreembolso, .footerinfopag, .footerproductos{
+    display: flex;
+    flex-direction: column;
+}
+.prefootercontacto, .prefooterentrega, .prefooterreembolso{
+    align-items: center;
+}
