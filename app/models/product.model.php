@@ -1,11 +1,11 @@
 <?php
-/*
+
 class modeloProducto{
     
     private $db;
     
     public function __construct(){
-        $this->db=new PDO('mysql:host=localhost;'.'dbname=geekinformatica;charset=utf8', 'root', '');
+        $this->db=new PDO('mysql:host=localhost;'.'dbname=geek_informatica;charset=utf8', 'root', '');
     }
 
     public function getAll(){
@@ -14,4 +14,4 @@ class modeloProducto{
         $productos = $query -> fetchAll(PDO::FETCH_OBJ);
         return $productos;
     }
-}*/
+}

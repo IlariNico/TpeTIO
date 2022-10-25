@@ -8,19 +8,21 @@ if (!empty($_GET['action'])) {
     $action = $_GET['action'];
 }
 
+$controladorProducto = new controladorProducto();
+
 $params = explode('/', $action);
 
 switch ($params[0]) {
     case 'home':
-        $controladorProducto = new controladorProducto();
+        
         $controladorProducto->showHome();
         break;
     case'productos':
-        $controladorProducto = new controladorProducto();
+        
         $controladorProducto->getAll();
         break;
     case'contacto':
-        $controladorProducto = new controladorProducto();
+        
         $controladorProducto-> showContacto();
         break;
     default:

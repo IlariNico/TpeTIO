@@ -7,7 +7,7 @@ class controladorProducto{
     private $vista;
     
     public function __construct(){
-        //$this->modelo=new modeloProducto();
+        $this->modelo=new modeloProducto();
         $this->vista=new vistaProducto();
     }
 
