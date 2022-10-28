@@ -1,4 +1,30 @@
-{include file='header.tpl'}
+<?php
+/* Smarty version 4.2.1, created on 2022-10-28 23:50:30
+  from 'C:\xampp\htdocs\proyect\TpeTIO\templates\home.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_635c4ea62878f7_14647744',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '9bffb9d8c83106fb9e9d5d067d9e483f131facf1' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\proyect\\TpeTIO\\templates\\home.tpl',
+      1 => 1666993823,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:header.tpl' => 1,
+    'file:footer.tpl' => 1,
+  ),
+),false)) {
+function content_635c4ea62878f7_14647744 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
 
 <div class="iniciohome">
     <div>
@@ -12,30 +38,8 @@
     <a href="productos">Ver todos los productos</a>
 </div>
 
-{*<div class="listaproductos">
-    {for $i=0; $i<6; $i++}
-        <div classs="productoind">
-            <img src="{$productos[$i]->img}">
-            <p>{$productos[$i]->nombreCorto}</p>
-            <p>{$productos[$i]->nombre}</p>
-            <p>{$productos[$i]->descripcion}</p>
-            <p>{$productos[$i]->precio}</p>
-        </div>
-    {/for}
-</div>*}
 
 <h3 class="tituloseccion">Los más vendidos</h3>
-{*<div class="listaproductos">
-    {for $i=0; $i<6; $i++}
-        <div classs="productoind">
-            <img src="{$productos[$i]->img}">
-            <p>{$productos[$i]->nombreCorto}</p>
-            <p>{$productos[$i]->nombre}</p>
-            <p>{$productos[$i]->descripcion}</p>
-            <p>{$productos[$i]->precio}</p>
-        </div>
-    {/for}
-</div>*}
 
 <div>
     <div class="titulocategorias">
@@ -44,7 +48,7 @@
         <a class="categoria" href="">Categoria 3</a>
         <a class="categoria" href="">Categoria 4</a>
     </div>
-    <div class="contenidocategoria">{*AGREGAR CONTENIDO CATEGORIA*}</div>
+    <div class="contenidocategoria"></div>
 </div>
 
 <div>
@@ -63,4 +67,6 @@
     </div>
 </div>
 
-{include file='footer.tpl'}
+<?php $_smarty_tpl->_subTemplateRender('file:footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
+}

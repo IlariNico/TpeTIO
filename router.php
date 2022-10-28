@@ -14,15 +14,12 @@ $params = explode('/', $action);
 
 switch ($params[0]) {
     case 'home':
-        
         $controladorProducto->showHome();
         break;
     case'productos':
-        
         $controladorProducto->getAll();
         break;
     case'contacto':
-        
         $controladorProducto-> showContacto();
         break;
     default:
