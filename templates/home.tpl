@@ -2,8 +2,7 @@
 
 <div class="iniciohome">
     <div>
-        <h1 class="frasehome"><span id="frasehomer1">Todo lo que buscás, </span><span class="frasehomer2">a un solo
-                click.</span></h1>
+        <h1 class="frasehome"><span id="frasehomer1">Todo lo que buscás, </span><span class="frasehomer2">a un solo click.</span></h1>
     </div>
     <img src="imagenes/homepc.png">
 </div>
@@ -49,25 +48,19 @@
 </div>
 
 <div>
-    <div class="tituloservicios">
-        <h3 class="tituloservicios__title">Nuestros Servicios</h3>
-        <div class="tituloservicios__line"></div>
-    </div>
-
+    <h3 class="tituloservicios">Nuestros Servicios</h3>
     <div class="contenidoservicios">
         <img src="imagenes/armarpc.png">
         <div class="descripcionservicios">
             <h4>Armamos tu PC con los mejores</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta dictum metus, non bibendum
-                lorem placerat at. Nulla ultricies venenatis enim, sit amet lacinia neque pharetra eget.
-                Aenean in posuere nisl, non egestas massa. Fusce sed euismod mauris. Nunc malesuada
-                magna ac dolo aliquam, aliquet tincidunt ex dictum. Fusce non risus ut risus porttitor interdum.
-                Phasellus hendrerit elit vitae tellus scelerisque, eget finibus ex gravida. Aliquam luctus justo
-                posuere tristique eleifend. In sit amet aliquam velit.</p>
+            lorem placerat at. Nulla ultricies venenatis enim, sit amet lacinia neque pharetra eget.
+            Aenean in posuere nisl, non egestas massa. Fusce sed euismod mauris. Nunc malesuada
+            magna ac dolo aliquam, aliquet tincidunt ex dictum. Fusce non risus ut risus porttitor interdum. 
+            Phasellus hendrerit elit vitae tellus scelerisque, eget finibus ex gravida. Aliquam luctus justo
+            posuere tristique eleifend. In sit amet aliquam velit.</p>
         </div>
     </div>
 </div>
-
-<script src="./js/home.js"></script>
 
 {include file='footer.tpl'}
