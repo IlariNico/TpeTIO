@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-25 16:43:32
+/* Smarty version 4.2.1, created on 2022-10-25 16:52:32
   from 'C:\xampp\htdocs\TpeTio\templates\productos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6357f61434b929_04815661',
+  'unifunc' => 'content_6357f830838c43_69212238',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '65ada46cb2c12693e814f77001ee47c2f1364197' => 
     array (
       0 => 'C:\\xampp\\htdocs\\TpeTio\\templates\\productos.tpl',
-      1 => 1666709009,
+      1 => 1666709023,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_6357f61434b929_04815661 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6357f830838c43_69212238 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <section class="d-flex flex-row mt-3 flexflexible">
