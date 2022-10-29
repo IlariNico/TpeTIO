@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-10-2022 a las 01:08:09
--- Versión del servidor: 10.4.22-MariaDB
--- Versión de PHP: 8.0.13
+-- Tiempo de generación: 30-10-2022 a las 01:35:02
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,10 +31,16 @@ CREATE TABLE `cliente` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) NOT NULL,
   `apellido` varchar(45) NOT NULL,
-  `tipo` varchar(45) NOT NULL,
-  `user` varchar(45) NOT NULL,
-  `pass` varchar(255) NOT NULL
+  `email` text NOT NULL,
+  `mensaje` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `cliente`
+--
+
+INSERT INTO `cliente` (`id`, `nombre`, `apellido`, `email`, `mensaje`) VALUES
+(1, 'nicolas', 'ilari', 'ilarinico40@gmail.com', 'esto es una prueba!');
 
 -- --------------------------------------------------------
 
@@ -76,6 +82,7 @@ INSERT INTO `productos` (`id`, `nombre`, `precio`, `stock`, `nombreCorto`, `marc
 (4, 'BANGHO 14\" MAX L4 I5 8GB 240GB', 180843, 50, 'max l4 i5', 'BANGHO', 'descripcion 4', './img/prod4.jpg'),
 (5, 'lenovo thinkpad L15 15,6\" core', 199099, 40, 'thinkpad L15', 'Lenovo', 'descripcion 5', './img/prod5.jpg'),
 (6, 'Acer aspire 3 15.6\" core i5 11', 165890, 20, 'Aspire 3 A315', 'Aspire', 'descripcion 6', './img/prod6.jpg');
+
 --
 -- Índices para tablas volcadas
 --
@@ -107,7 +114,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `pedidos`
@@ -119,7 +126,7 @@ ALTER TABLE `pedidos`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restricciones para tablas volcadas
