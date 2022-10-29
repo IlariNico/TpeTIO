@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-25 16:29:09
+/* Smarty version 4.2.1, created on 2022-10-29 23:51:34
   from 'C:\xampp\htdocs\TpeTio\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6357f2b5b9e3f1_01379101',
+  'unifunc' => 'content_635da0665f6cc2_72357197',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd95482e23a7069165997adcf2feac7aa162bb938' => 
     array (
       0 => 'C:\\xampp\\htdocs\\TpeTio\\templates\\home.tpl',
-      1 => 1666706931,
+      1 => 1667070645,
       2 => 'file',
     ),
   ),
@@ -22,51 +22,48 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_6357f2b5b9e3f1_01379101 (Smarty_Internal_Template $_smarty_tpl) {
+function content_635da0665f6cc2_72357197 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-<div>
-    <h1> Todo lo que buscas, a un solo click<h1>
-    <img src="">
+<div class="iniciohome">
+    <div>
+        <h1 class="frasehome"><span id="frasehomer1">Todo lo que buscás, </span><span class="frasehomer2">a un solo click.</span></h1>
+    </div>
+    <img src="imagenes/homepc.png">
 </div>
 
-<div>
+<div class="productosylink">
     <h3>Productos</h3>
     <a href="productos">Ver todos los productos</a>
-    <div>
-        <img src="">
+</div>
+
+
+<h3 class="tituloseccion">Los más vendidos</h3>
+
+<div>
+    <div class="titulocategorias">
+        <a class="categoria" href="">Categoria 1</a>
+        <a class="categoria" href="">Categoria 2</a>
+        <a class="categoria" href="">Categoria 3</a>
+        <a class="categoria" href="">Categoria 4</a>
     </div>
+    <div class="contenidocategoria"></div>
 </div>
 
 <div>
-    <h2 class="tituloseccion">Los mas vendidos</h2>
-    <div>
-        <img src="">
-    </div>
-    <div>
-        <div>
-            <a href="categoria1">Categoria 1</a>
-            <a href="categoria2">Categoria 2</a>
-            <a href="categoria3">Categoria 3</a>
+    <h3 class="tituloservicios">Nuestros Servicios</h3>
+    <div class="contenidoservicios">
+        <img src="imagenes/armarpc.png">
+        <div class="descripcionservicios">
+            <h4>Armamos tu PC con los mejores</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta dictum metus, non bibendum
+            lorem placerat at. Nulla ultricies venenatis enim, sit amet lacinia neque pharetra eget.
+            Aenean in posuere nisl, non egestas massa. Fusce sed euismod mauris. Nunc malesuada
+            magna ac dolo aliquam, aliquet tincidunt ex dictum. Fusce non risus ut risus porttitor interdum. 
+            Phasellus hendrerit elit vitae tellus scelerisque, eget finibus ex gravida. Aliquam luctus justo
+            posuere tristique eleifend. In sit amet aliquam velit.</p>
         </div>
-        <div>
-            <img src="">
-        </div>
-    </div>
-</div>
-
-<div>
-    <h1>Nuestros servicios</h1>
-    <div>
-        <img src="">
-        <h2>Armamos tu PC con los mejores</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta dictum metus, non bibendum
-        lorem placerat at. Nulla ultricies venenatis enim, sit amet lacinia neque pharetra eget.
-        Aenean in posuere nisl, non egestas massa. Fusce sed euismod mauris. Nunc malesuada
-        magna ac dolo aliquam, aliquet tincidunt ex dictum. Fusce non risus ut risus porttitor interdum. 
-        Phasellus hendrerit elit vitae tellus scelerisque, eget finibus ex gravida. Aliquam luctus justo
-        posuere tristique eleifend. In sit amet aliquam velit.</p>
     </div>
 </div>
 
