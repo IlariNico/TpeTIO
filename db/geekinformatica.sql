@@ -76,7 +76,7 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `nombre`, `precio`, `stock`, `nombreCorto`, `marca`, `descripcion`, `img`) VALUES
-(1, 'ASUS X515EA 15.6 INTEL I3-1115', 118843, 50, 'X515', 'ASUS', 'descripcion 1', '.img/prod1.jpg'),
+(1, 'ASUS X515EA 15.6 INTEL I3-1115', 118843, 50, 'X515', 'ASUS', 'descripcion 1', './img/prod1.jpg'),
 (2, 'LENOVO THINKBOOK PANTALLA 15.6', 240933, 30, 'ThinkBook Gen 2 ITL', 'Lenovo', 'descripcion 2', './img/prod2.jpg'),
 (3, 'LENOVO V15 PANTALLA 15,6 CORE ', 209517, 20, 'V15', 'Lenovo', 'descripcion 3', './img/prod3.jpg'),
 (4, 'BANGHO 14\" MAX L4 I5 8GB 240GB', 180843, 50, 'max l4 i5', 'BANGHO', 'descripcion 4', './img/prod4.jpg'),
