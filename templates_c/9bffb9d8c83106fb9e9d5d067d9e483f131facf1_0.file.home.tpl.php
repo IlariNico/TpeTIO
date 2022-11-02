@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-30 01:03:08
+/* Smarty version 4.2.1, created on 2022-11-02 22:49:13
   from 'C:\xampp\htdocs\proyect\TpeTIO\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_635db12c347be8_36964725',
+  'unifunc' => 'content_6362e5d95e4ef9_55649208',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9bffb9d8c83106fb9e9d5d067d9e483f131facf1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proyect\\TpeTIO\\templates\\home.tpl',
-      1 => 1667084583,
+      1 => 1667425719,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_635db12c347be8_36964725 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6362e5d95e4ef9_55649208 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -46,15 +46,15 @@ if ($_smarty_tpl->tpl_vars['i']->value < 6) {
 for ($_foo=true;$_smarty_tpl->tpl_vars['i']->value < 6; $_smarty_tpl->tpl_vars['i']->value++) {
 ?>
         <div classs="productoind">
-            <img src="<?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->img;?>
+            <img class="imagenesprod" src="<?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->img;?>
 ">
-            <p><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->nombre;?>
+            <p class="textprod"><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->nombre;?>
 </p>
-            <p><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->nombreCorto;?>
+            <p class="textprod"><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->nombreCorto;?>
 </p>
-            <p><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->descripcion;?>
+            <p class="textprod"><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->descripcion;?>
 </p>
-            <p><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->precio;?>
+            <p class="textprod"><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->precio;?>
 </p>
         </div>
     <?php }
@@ -63,6 +63,7 @@ for ($_foo=true;$_smarty_tpl->tpl_vars['i']->value < 6; $_smarty_tpl->tpl_vars['
 </div>
 
 <h3 class="tituloseccion">Los más vendidos</h3>
+
 
 <div>
     <div class="titulocategorias">
@@ -90,6 +91,9 @@ for ($_foo=true;$_smarty_tpl->tpl_vars['i']->value < 6; $_smarty_tpl->tpl_vars['
     </div>
 </div>
 
+<?php echo '<script'; ?>
+ src="./js/home.js"><?php echo '</script'; ?>
+>
 <?php $_smarty_tpl->_subTemplateRender('file:footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }
 }

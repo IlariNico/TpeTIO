@@ -16,11 +16,11 @@
 <div class="listaproductos">
     {for $i=0; $i<6; $i++}
         <div classs="productoind">
-            <img src="{$productos[$i]->img}">
-            <p>{$productos[$i]->nombre}</p>
-            <p>{$productos[$i]->nombreCorto}</p>
-            <p>{$productos[$i]->descripcion}</p>
-            <p>{$productos[$i]->precio}</p>
+            <img class="imagenesprod" src="{$productos[$i]->img}">
+            <p class="textprod">{$productos[$i]->nombre}</p>
+            <p class="textprod">{$productos[$i]->nombreCorto}</p>
+            <p class="textprod">{$productos[$i]->descripcion}</p>
+            <p class="textprod">{$productos[$i]->precio}</p>
         </div>
     {/for}
 </div>
@@ -49,11 +49,7 @@
 </div>
 
 <div>
-    <div class="tituloservicios">
-        <h3 class="tituloservicios__title">Nuestros Servicios</h3>
-        <div class="tituloservicios__line"></div>
-    </div>
-
+    <h3 class="tituloservicios">Nuestros Servicios</h3>
     <div class="contenidoservicios">
         <img src="imagenes/armarpc.png">
         <div class="descripcionservicios">
@@ -69,5 +65,4 @@
 </div>
 
 <script src="./js/home.js"></script>
-
 {include file='footer.tpl'}
