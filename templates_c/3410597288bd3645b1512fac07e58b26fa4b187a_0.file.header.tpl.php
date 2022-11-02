@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-28 21:31:24
+/* Smarty version 4.2.1, created on 2022-11-01 03:49:20
   from 'C:\xampp\htdocs\proyect\TpeTIO\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_635c2e0c8f2cb4_27215720',
+  'unifunc' => 'content_636089303c26e4_83204799',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3410597288bd3645b1512fac07e58b26fa4b187a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proyect\\TpeTIO\\templates\\header.tpl',
-      1 => 1666985479,
+      1 => 1667270901,
       2 => 'file',
     ),
   ),
@@ -20,31 +20,41 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_635c2e0c8f2cb4_27215720 (Smarty_Internal_Template $_smarty_tpl) {
+function content_636089303c26e4_83204799 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 
 <head>
   <base href="<?php echo BASE_URL;?>
 ">
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/estilos.css">
+  <?php echo '<script'; ?>
+ defer src="./js/header.js"><?php echo '</script'; ?>
+>
   <title>Titulo</title>
 </head>
 
 <body>
 
-<header>
-</header>
-<nav>
-  <a href='home' class="titulopagina" >Titulo</a>
-  
-  <p><a class="productos" href='productos'>Productos</a></p>
-  <p><a class="armarpc" href='armarpc'>Armar mi PC</a></p>
-  <button class="contacto"><a href='contacto'>Contacto</a></button>
-</nav><?php }
+  <header>
+    <nav>
+      <div class="navBar__line"></div>
+      <div class="navBar__container">
+        <div class="navBar__group1">
+          <a href='home' class="titulopagina nav__item">Titulo</a>
+          <a class="productos nav__item" href='productos'>Productos</a>
+          <a class="armarpc nav__item" href='armarpc'>Armar mi PC</a>
+        </div>
+        <a href='contacto' class="contacto">Contacto</a>
+      </div>
+    </nav>
+</header><?php }
 }
