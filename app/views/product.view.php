@@ -7,8 +7,7 @@ class vistaProducto{
         $this->smarty = new Smarty();    
     }
 
-    public function showHome($productos){
-        $this->smarty->assign('productos', $productos);
+    public function showHome(){
         $this->smarty->display('home.tpl');
     }
 
