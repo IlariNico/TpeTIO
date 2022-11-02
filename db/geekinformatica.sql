@@ -75,6 +75,7 @@ CREATE TABLE `productos` (
 -- Volcado de datos para la tabla `productos`
 --
 
+
 INSERT INTO `productos` (`id`, `nombre`, `precio`, `stock`, `nombreCorto`, `marca`, `descripcion`, `img`) VALUES
 (1, 'ASUS X515EA 15.6 INTEL I3-1115', 118843, 50, 'X515', 'ASUS', 'descripcion 1', '.img/prod1.jpg'),
 (2, 'LENOVO THINKBOOK PANTALLA 15.6', 240933, 30, 'ThinkBook Gen 2 ITL', 'Lenovo', 'descripcion 2', './img/prod2.jpg'),
