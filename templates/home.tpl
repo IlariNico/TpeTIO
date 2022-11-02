@@ -15,7 +15,7 @@
 
 <div class="listaproductos">
     {for $i=0; $i<6; $i++}
-        <div classs="productoind">
+        <div class="productoind">
             <img src="{$productos[$i]->img}">
             <p>{$productos[$i]->nombre}</p>
             <p>{$productos[$i]->nombreCorto}</p>

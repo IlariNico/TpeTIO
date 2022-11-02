@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-30 01:50:24
+/* Smarty version 4.2.1, created on 2022-10-31 23:06:44
   from 'C:\xampp\htdocs\TpeTIO\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_635dbc40ad0844_82882310',
+  'unifunc' => 'content_636046f4821d34_16528695',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f97f50a4f558a309d8ea4c25ada0c88ff84a30d9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\TpeTIO\\templates\\home.tpl',
-      1 => 1667087422,
+      1 => 1667254002,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_635dbc40ad0844_82882310 (Smarty_Internal_Template $_smarty_tpl) {
+function content_636046f4821d34_16528695 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -46,7 +46,7 @@ $_smarty_tpl->tpl_vars['i']->value = 0;
 if ($_smarty_tpl->tpl_vars['i']->value < 6) {
 for ($_foo=true;$_smarty_tpl->tpl_vars['i']->value < 6; $_smarty_tpl->tpl_vars['i']->value++) {
 ?>
-        <div classs="productoind">
+        <div class="productoind">
             <img src="<?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->img;?>
 ">
             <p><?php echo $_smarty_tpl->tpl_vars['productos']->value[$_smarty_tpl->tpl_vars['i']->value]->nombre;?>
