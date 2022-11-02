@@ -12,7 +12,8 @@ class controladorProducto{
     }
 
     public function showHome(){
-        $this->vista->showHome();
+        $productos=$this->modelo->getAll();
+        $this->vista->showHome($productos);
     }
 
     public function getAll(){
