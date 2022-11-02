@@ -12,30 +12,20 @@
     <a href="productos">Ver todos los productos</a>
 </div>
 
-{*<div class="listaproductos">
+<div class="listaproductos">
     {for $i=0; $i<6; $i++}
         <div classs="productoind">
-            <img src="{$productos[$i]->img}">
-            <p>{$productos[$i]->nombre}</p>
-            <p>{$productos[$i]->nombreCorto}</p>
-            <p>{$productos[$i]->descripcion}</p>
-            <p>{$productos[$i]->precio}</p>
+            <img class="imagenesprod" src="{$productos[$i]->img}">
+            <p class="textprod">{$productos[$i]->nombre}</p>
+            <p class="textprod">{$productos[$i]->nombreCorto}</p>
+            <p class="textprod">{$productos[$i]->descripcion}</p>
+            <p class="textprod">{$productos[$i]->precio}</p>
         </div>
     {/for}
 </div>
 
 <h3 class="tituloseccion">Los más vendidos</h3>
-{*<div class="listaproductos">
-    {for $i=0; $i<6; $i++}
-        <div classs="productoind">
-            <img src="{$productos[$i]->img}">
-            <p>{$productos[$i]->nombreCorto}</p>
-            <p>{$productos[$i]->nombre}</p>
-            <p>{$productos[$i]->descripcion}</p>
-            <p>{$productos[$i]->precio}</p>
-        </div>
-    {/for}
-</div>*}
+
 
 <div>
     <div class="titulocategorias">
