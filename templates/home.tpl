@@ -26,7 +26,17 @@
 </div>
 
 <h3 class="tituloseccion">Los más vendidos</h3>
-
+{*<div class="listaproductos">
+    {for $i=0; $i<6; $i++}
+        <div classs="productoind">
+            <img src="{$productos[$i]->img}">
+            <p>{$productos[$i]->nombreCorto}</p>
+            <p>{$productos[$i]->nombre}</p>
+            <p>{$productos[$i]->descripcion}</p>
+            <p>{$productos[$i]->precio}</p>
+        </div>
+    {/for}
+</div>*}
 
 <div>
     <div class="titulocategorias">
