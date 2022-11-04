@@ -17,7 +17,7 @@ class vistaProducto{
         $this->smarty->display('productos.tpl');
     }
 
-    public function showOne($productos){
+    public function showOne($producto){
         $this->smarty->assign('producto', $producto);
         $this->smarty->display('productosUnico.tpl');
     }

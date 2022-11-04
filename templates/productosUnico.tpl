@@ -14,15 +14,15 @@
                     <tr>
                         <th scope="col">Marca</th>
                         <th scope="col">Nombre corto</th>
-                        <th scope="col">Desc. Cat.</th>
+                        <th scope="col">Desc. </th>
                 
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                     <td>{$producto->marca}</td>
-                    <td>{$categoria->nombreCorto}</td>
-                    <td> {$categoria->descripcion}</td>
+                    <td>{$producto->nombreCorto}</td>
+                    <td> {$producto->descripcion}</td>
                     </tr>
             </table>
             <a href='' class="btn btn-primary btn-lg ms-5 mt-3">Volver inicio</a>

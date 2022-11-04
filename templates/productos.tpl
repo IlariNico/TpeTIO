@@ -7,7 +7,7 @@
                 <h5 class="card-title">{$producto->nombre}</h5>
                 <p class="card-text">{$producto->descripcion}</p>
                 <div class="d-flex row justify-content-center">
-                    <a href="mostrarprod/{$producto->ID}" class="btn btn-primary ">Ver</a>
+                    <a href="mostrarprod/{$producto->id}" class="btn btn-primary">Ver más</a>
                 </div>
             </div>
         </div>
