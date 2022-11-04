@@ -28,6 +28,7 @@ a {
 
 .d-flex {
     display: flex;
+    justify-content: center;
 }
 
 .no-padding {
@@ -49,6 +50,10 @@ a {
     background-color: #c94d3f;
     color: white;
     text-align: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .imagenespagcontacto,
@@ -197,13 +202,14 @@ div.iniciohome img {
     flex-direction: row;
     justify-content: space-between;
     margin: 2%;
+    margin-left: 5%;
 }
 
 .listaproductos,
 .titulocategorias {
     display: flex;
     flex-direction: row;
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
 .categoria {
@@ -255,7 +261,7 @@ div.iniciohome img {
 }
 
 .divformulario {
-    margin-left: 2%;
+    margin-left: 5%;
     margin-bottom: 10%;
     font-size: 120%;
 }
@@ -266,6 +272,7 @@ input {
     border-color: grey;
     border-radius: 10px;
     background-color: rgb(233, 220, 220);
+    padding: 15px;
 }
 
 .inputmsj {
@@ -305,13 +312,16 @@ input {
     margin-left: 2%;
     flex-wrap: wrap;
 }
+.descripcionservicios p{
+    max-width: 50%;
+}
 
 
 /*FOOTER TPL*/
 .prefooter {
     margin-top: 5%;
     background-color: #F5F7FF;
-    padding: 1%;
+    padding: 5%;
 }
 
 footer.principal p,
@@ -323,10 +333,9 @@ footer.principal a {
 
 .footersuperior,
 .footerinferior {
-    padding: 1%;
     background-color: black;
+    padding: 2% 5%;
 }
-
 
 .botonfooter {
     border-radius: 10px;
@@ -336,6 +345,18 @@ footer.principal a {
 
 footer.principal div form {
     margin-top: 9%;
+}
+
+.prefootercontacto,
+.prefooterentrega,
+.prefooterreembolso {
+    align-items: center;
+}
+
+.prefootercontacto h5,
+.prefooterentrega h5,
+.prefooterreembolso h5 {
+    margin-top: 10px;
 }
 
 .prefootercontacto,
