@@ -25,7 +25,7 @@
         <div class="navBar__group1">
           <a href='home' class="titulopagina nav__item">Titulo</a>
           <a class="productos nav__item" href='productos'>Productos</a>
-          <a class="armarpc nav__item" href='armarpc'>Armar mi PC</a>
+          {*<a class="armarpc nav__item" href='armarpc'>Armar mi PC</a>*}
         </div>
         <a href='contacto' class="contacto">Contacto</a>
       </div>

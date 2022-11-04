@@ -27,15 +27,15 @@
             <p>Pongase en contacto con nosotros y nos aseguramos de responderle lo antes posible.</p>
         </div>
         <div>
-            <img class="imagenespagcontacto" src="imagenes/telefonocontacto.png">
+            <img class="imagenespagcontacto" src="img/telefonocontacto.png">
             <p>2494-000000</p>
         </div>
         <div>
-            <img class="imagenespagcontacto" src="imagenes/mailcontacto.png">
+            <img class="imagenespagcontacto" src="img/mailcontacto.png">
             <p>trabajo@gmail.com</p>
         </div>
         <div>
-            <img class="imagenespagcontacto" src="imagenes/ubicacioncontacto.png">
+            <img class="imagenespagcontacto" src="img/ubicacioncontacto.png">
             <p>ubicacion</p>
         </div>
     </div>

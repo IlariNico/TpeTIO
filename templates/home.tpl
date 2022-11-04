@@ -5,7 +5,7 @@
         <h1 class="frasehome"><span id="frasehomer1">Todo lo que buscás, </span><span class="frasehomer2">a un solo
                 click.</span></h1>
     </div>
-    <img src="imagenes/homepc.png">
+    <img src="img/homepc.png">
 </div>
 
 <div class="productosylink">
@@ -56,7 +56,7 @@
     </div>
 
     <div class="contenidoservicios">
-        <img src="imagenes/armarpc.png">
+        <img src="img/armarpc.png">
         <div class="descripcionservicios">
             <h4>Armamos tu PC con los mejores</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta dictum metus, non bibendum
