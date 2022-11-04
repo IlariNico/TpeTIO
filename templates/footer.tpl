@@ -36,11 +36,9 @@
         </div>
         <div class="footerproductos">
             <p>Productos</p>
-            <a href="">Destacados</a>
+           
             <a href="productos">Todos los productos</a>
-            <a href="">Categoria 1</a>
-            <a href="">Categoria 2</a>
-            <a href="">Categoria 3</a>
+            
         </div>
         <div class="footercontacto">
             <p>Contacto<p>

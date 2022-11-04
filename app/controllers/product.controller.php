@@ -21,6 +21,11 @@ class controladorProducto{
         $this->vista->showAll($productos);
     }
 
+    public function mostrarprod($id){
+        $producto=$this->modelo->getOne($id);
+        $this->vista->showOne($producto);
+    }
+
     public function showContacto(){
         $this->vista->showContacto();
     }

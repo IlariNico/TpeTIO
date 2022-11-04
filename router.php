@@ -22,6 +22,9 @@ switch ($params[0]) {
     case'productos':
         $controladorProducto->getAll();
         break;
+        case'mostrarprod':
+            $controladorCliente->mostrarprod($params[1]);
+            break; 
     case'contacto':
         $controladorProducto-> showContacto();
         break;
