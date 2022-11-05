@@ -39,15 +39,6 @@
 </div>*}
 
 
-<div>
-    <div class="titulocategorias">
-        <a class="categoria" href="">Categoria 1</a>
-        <a class="categoria" href="">Categoria 2</a>
-        <a class="categoria" href="">Categoria 3</a>
-        <a class="categoria" href="">Categoria 4</a>
-    </div>
-    <div class="contenidocategoria">{*AGREGAR CONTENIDO CATEGORIA*}</div>
-</div>
 
 <div>
     <div class="tituloservicios">
